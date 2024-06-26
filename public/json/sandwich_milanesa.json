@@ -1,0 +1,20 @@
+{
+    "sandwich_milanesa": [
+        {
+            "type": "Sandwich_Milanesa",
+            "title": "Sandwich de Milanesa Simple",
+            "description": "Sandwich de milanesa de carne o de pollo, gratinada con queso, y aderezos a elección.",
+            "price-big": "0.00",
+            "image": "paniniA.webp",
+            "extra-text": "Con Papas.."
+        },
+        {
+            "type": "Sandwich_Milanesa",
+            "title": "Sandwich de Milanesa Completo",
+            "description": "Sandwich de milanesa de carne o de pollo, jamón, queso, lechuga, tomate, huevo y aderezos a elección.",
+            "price-big": "0.00",
+            "image": "paniniB.webp",
+            "extra-text": "Con Papas.."
+        }
+    ]
+}

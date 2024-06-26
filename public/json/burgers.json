@@ -1,0 +1,28 @@
+{
+    "burgers": [
+        {
+            "type": "Hamburguesas",
+            "title": "Hamburguesa Simple",
+            "description": "Medallón de carne con queso derretido y aderezos a elección.",
+            "price-big": "0.00",
+            "image": "flames_burgerF.webp",
+            "extra-text": "Con Papas.."
+        },
+        {
+            "type": "Hamburguesas",
+            "title": "Hamburguesa Completa",
+            "description": "Medallón de carne con queso derretido, jamón, lechuga, tomate, huevo y aderezos a elección.",
+            "price-big": "0.00",
+            "image": "flames_burgerC.webp",
+            "extra-text": "Con Papas.."
+        },
+        {
+            "type": "Hamburguesas",
+            "title": "Hamburguesa Doble",
+            "description": "Doble medallón de carne con queso derretido, jamón, lechuga, tomate, huevo y aderezos a elección.",
+            "price-big": "0.00",
+            "image": "flames_burgerD.webp",
+            "extra-text": "Con Papas.."
+        }
+    ]
+}

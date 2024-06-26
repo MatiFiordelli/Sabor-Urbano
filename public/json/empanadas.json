@@ -1,0 +1,40 @@
+{
+    "empanadas": [
+        {
+            "type": "Empanadas",
+            "title": "Empanadas de Carne Salada",
+            "description": "Relleno de carne picada, cebolla, huevo, comino, pimentón dulce y aceitunas.",
+            "price-small": "0.00",
+            "price-big": "0.00",
+            "image": "empanada_carne_salada.jpeg",
+            "extra-text": "Fritas.."
+        },
+        {
+            "type": "Empanadas",
+            "title": "Empanadas de Cebolla y Queso",
+            "description": "Relleno de cebolla salteada con queso cremoso.",
+            "price-small": "0.00",
+            "price-big": "0.00",
+            "image": "empanada_cebolla_queso.jpeg",
+            "extra-text": "Fritas.."
+        },
+        {
+            "type": "Empanadas",
+            "title": "Empanadas de Jamón y Queso",
+            "description": "Relleno de jamon y queso cremoso.",
+            "price-small": "0.00",
+            "price-big": "0.00",
+            "image": "empanada_jamon_queso.jpeg",
+            "extra-text": "Fritas.."
+        },
+        {
+            "type": "Empanadas",
+            "title": "Empanadas Caprese",
+            "description": "Relleno de tomates marinados con albahaca y queso cremoso.",
+            "price-small": "0.00",
+            "price-big": "0.00",
+            "image": "empanada_caprese.webp",
+            "extra-text": "Fritas.."
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "sandwich_lomito": [
+        {
+            "type": "Lomitos",
+            "title": "Sandwich de Lomito Simple",
+            "description": "Sandwich de lomo, gratinado con queso, y aderezos a elección.",
+            "price-big": "0.00",
+            "image": "paniniE.avif",
+            "extra-text": "Con Papas.."
+        },
+        {
+            "type": "Lomitos",
+            "title": "Sandwich de Lomito Completo",
+            "description": "Sandwich de lomo, jamón, queso, lechuga, tomate, huevo y aderezos a elección.",
+            "price-big": "0.00",
+            "image": "paniniC.webp",
+            "extra-text": "Con Papas.."
+        }
+    ]
+}

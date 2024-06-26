@@ -1,0 +1,28 @@
+.nav{
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    width: var(--inner-content-width);
+    border:1px solid red;
+
+    & ul{
+        border:1px solid white;
+        list-style: none;
+        display: grid;
+        justify-content: end;
+        grid-auto-flow: column;
+        gap: 10%;
+        width: 100%;
+        margin: 5%;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .nav{
+        display:none;
+    }
+}

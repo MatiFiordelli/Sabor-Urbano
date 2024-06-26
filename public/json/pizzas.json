@@ -1,0 +1,60 @@
+{
+    "pizzas": [
+        {
+            "type": "Pizzas",
+            "title": "Pizza Común",
+            "description": "Salsa de tomates casera, queso mozzarela, oregano y aceitunas.",
+            "price-big": "0.00",
+            "image": "pizza_comun.webp",
+            "extra-text": "8 Porciones.."
+        },
+        {
+            "type": "Pizzas",
+            "title": "Pizza Especial de Jamón",
+            "description": "Salsa de tomates casera, queso mozzarela, jamón, oregano y aceitunas.",
+            "price-big": "0.00",
+            "image": "pizza_especial.webp",
+            "extra-text": "8 Porciones.."
+        },
+        {
+            "type": "Pizzas",
+            "title": "Pizza Especial de Jamón y Huevo",
+            "description": "Salsa de tomates casera, queso mozzarela, jamón, huevo, oregano y aceitunas.",
+            "price-big": "0.00",
+            "image": "pizza_especial_huevo.webp",
+            "extra-text": "8 Porciones.."
+        },
+        {
+            "type": "Pizzas",
+            "title": "Pizza Napolitana",
+            "description": "Salsa de tomates casera, queso mozzarela, rodajas de tomate, ajo, oregano y aceitunas.",
+            "price-big": "0.00",
+            "image": "pìzza_napolitana.jpeg",
+            "extra-text": "8 Porciones.."
+        },
+        {
+            "type": "Pizzas",
+            "title": "Pizza Provenzal",
+            "description": "Salsa de tomates casera, queso mozzarela, perejil fresco, ajo, oregano y aceitunas.",
+            "price-big": "0.00",
+            "image": "pizza_provenzal.webp",
+            "extra-text": "8 Porciones.."
+        },
+        {
+            "type": "Pizzas",
+            "title": "Pizza Kids",
+            "description": "Salsa de tomates casera, papas fritas, cheddar, salchichas, oregano y aceitunas.",
+            "price-big": "0.00",
+            "image": "pizza_kids.webp",
+            "extra-text": "8 Porciones.."
+        },
+        {
+            "type": "Pizzas",
+            "title": "Pizza Bomba",
+            "description": "Salsa de tomates casera, papas fritas, cheddar, huevos fritos, oregano y aceitunas.",
+            "price-big": "0.00",
+            "image": "pizza_bomba.jpeg",
+            "extra-text": "8 Porciones.."
+        }
+    ]
+}

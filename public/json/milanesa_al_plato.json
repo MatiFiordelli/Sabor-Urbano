@@ -1,0 +1,28 @@
+{
+    "milanesa_al_plato": [
+        {
+            "type": "Milanesas",
+            "title": "Milanesa al plato, a la Pizza",
+            "description": "Milanesa de carne o pollo, con salsa de tomates y queso derretido.",
+            "price-big": "0.00",
+            "image": "milanesa_a_la_pizza.webp",
+            "extra-text": "Con Papas.."
+        },
+        {
+            "type": "Milanesas",
+            "title": "Milanesa al plato, a la Napolitana",
+            "description": "Milanesa de carne o pollo, jamón, queso, rodajas de tomates, orégano y ajo.",
+            "price-big": "0.00",
+            "image": "milanesa_napolitana.jpeg",
+            "extra-text": "Con Papas.."
+        },
+        {
+            "type": "Milanesas",
+            "title": "Milanesa al plato, a Caballo",
+            "description": "Milanesa de carne o pollo con huevos fritos.",
+            "price-big": "0.00",
+            "image": "milanesa_a_caballo.webp",
+            "extra-text": "Con Papas.."
+        }
+    ]
+}

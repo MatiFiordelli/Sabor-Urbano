@@ -1,0 +1,28 @@
+{
+    "french_fries": [
+        {
+            "type": "Papas",
+            "title": "Papas Fritas",
+            "description": "Papas fritas clásicas.",
+            "price-small": "5.00",
+            "price-big": "10.00",
+            "image": "french_fries3.avif"
+        },
+        {
+            "type": "Papas",
+            "title": "Papas con Cheddar",
+            "description": "Papas fritas bañadas con queso cheddar.",
+            "price-small": "5.00",
+            "price-big": "10.00",
+            "image": "french_fries4.avif"
+        },
+        {
+            "type": "Papas",
+            "title": "Papas con Huevo",
+            "description": "Papas fritas clásicas mezcladas con huevos revueltos.",
+            "price-small": "5.00",
+            "price-big": "10.00",
+            "image": "french_fries7.webp"
+        }
+    ]
+}

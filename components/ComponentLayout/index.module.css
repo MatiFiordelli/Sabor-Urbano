@@ -1,0 +1,38 @@
+.componentLayout {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  width: var(--inner-content-width);
+  min-height: 100vh;
+}
+.componentLayout .haceTuPedido {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 20;
+  transition: 500ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+.componentLayout .haceTuPedido .haceTuPedidoImg {
+  transition: 500ms;
+  pointer-events: auto;
+}
+.componentLayout .haceTuPedido .haceTuPedidoImg:hover {
+  transition: 500ms;
+  scale: 1.1;
+}
+.componentLayout .haceTuPedido .haceTuPedidoText {
+  color: #41C352;
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  pointer-events: none;
+  transition: 500ms;
+}/*# sourceMappingURL=index.module.css.map */
