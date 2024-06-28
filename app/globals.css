@@ -37,9 +37,11 @@ body {
 	margin: 0 auto;
 	font-family: 'Monserrat-Medium', Arial, Helvetica, sans-serif;
 	/* font-size: 16px; */
-	font-size: clamp(16px, 1vw, 34.6px);
+	/* font-size: clamp(16px, 1vw, 34.6px); */
+	font-size: clamp(15px, 1vw, 60px) !important;
 	font-weight: normal;
 	font-synthesis: style small-caps weight position;
+	/* scroll-behavior: smooth; */
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;

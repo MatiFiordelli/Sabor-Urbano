@@ -26,6 +26,7 @@ export default function Home() {
 						width={794}
 						height={494}
 						className={styles["big-burger__image"]}
+						priority
 					/>
 				</div>
 

@@ -39,6 +39,10 @@
   position: relative;
   width: 100%;
   height: 500px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .main .big-burger .big-burger__image {
   position: absolute;

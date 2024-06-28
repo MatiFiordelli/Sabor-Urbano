@@ -8,15 +8,15 @@ export default function Footer() {
             <div className={styles.footerContent}>
                 <div className={styles.leftSection}>
                     <h1 className={styles.leftSectionTitle}>Sabor Urbano</h1>
-                    <h5 className={styles.leftSectionContent}>
+                    <h2 className={styles.leftSectionContent}>
                         Av. Angela de la Casa 1840
-                    </h5>
-                    <h5 className={styles.leftSectionContent}>
+                    </h2>
+                    <h2 className={styles.leftSectionContent}>
                         S2300 Rafaela, Santa Fe
-                    </h5>
-                    <h5 className={styles.leftSectionContent}>
+                    </h2>
+                    <h2 className={styles.leftSectionContent}>
                         3492 331704
-                    </h5>
+                    </h2>
                 </div>
                 <div className={styles.rightSection}>
                     <Link

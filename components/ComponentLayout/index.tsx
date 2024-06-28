@@ -18,6 +18,7 @@ export default function ComponentLayout({children}: PropsComponentLayout ) {
                 href="https://wa.me/543492331704" 
                 title="Hacé tu pedido por Whatsapp" 
                 className={styles.haceTuPedido}
+                target="_blank"
             >
                 <span 
                     className={styles.haceTuPedidoText}

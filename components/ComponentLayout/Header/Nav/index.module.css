@@ -6,10 +6,8 @@
   white-space: nowrap;
   overflow: hidden;
   width: var(--inner-content-width);
-  border: 1px solid red;
 }
 .nav ul {
-  border: 1px solid white;
   list-style: none;
   display: grid;
   justify-content: end;
@@ -18,6 +16,34 @@
   width: 100%;
   margin: 5%;
   overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.nav ul li {
+  cursor: pointer;
+}
+.nav ul li::before {
+  content: attr(data-text);
+  color: rgb(236, 195, 46);
+  display: block;
+  position: absolute;
+  top: inherit;
+  left: inherit;
+  overflow: hidden;
+  margin: inherit;
+  padding: 0;
+  text-decoration: underline;
+  transition: 1600ms width;
+  width: 0px;
+  z-index: 1;
+}
+.nav ul li:hover::before {
+  width: 5rem;
+}
+.nav ul li:active::before {
+  color: #FFF;
 }
 
 @media only screen and (max-width: 768px) {

@@ -3,7 +3,6 @@
   display: grid;
   place-items: center;
   position: relative;
-  margin: 5px;
   transition: 500ms;
   min-width: 50px;
   height: 50px;
@@ -58,4 +57,11 @@
 .hamburger-button--active .lineBottom {
   transform: translateY(-280%) rotateZ(-45deg);
   width: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  .hamburger-button {
+    cursor: pointer;
+    display: none;
+  }
 }/*# sourceMappingURL=index.module.css.map */

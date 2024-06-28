@@ -23,6 +23,7 @@
         & .haceTuPedidoImg{
             transition: 500ms;
             pointer-events: auto;
+            user-select: none;
 
             &:hover{
                 transition: 500ms;
