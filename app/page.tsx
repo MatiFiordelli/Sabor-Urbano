@@ -1,12 +1,9 @@
 "use client"
-import { motion, useScroll, useViewportScroll, useWillChange } from "framer-motion";
 import ComponentLayout from "@/components/ComponentLayout";
 import "../app/globals.css";
 import styles from "./page.module.css";
-import Image from "next/image";
 import CardsGroupBurgers from "@/components/CardsGroupBurgers";
 import Marquee from "@/components/Marquee";
-import { useEffect, useRef } from "react";
 //import Waves from "@/components/Canvas/Waves";
 import TopPresentation from "@/components/TopPresentation";
 

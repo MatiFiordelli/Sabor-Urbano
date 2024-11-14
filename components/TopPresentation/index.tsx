@@ -1,6 +1,5 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import styles from './index.module.scss'
-import { motion } from 'framer-motion'
 import RightContainer from './RightContainer';
 import LeftContainer from './LeftContainer';
 

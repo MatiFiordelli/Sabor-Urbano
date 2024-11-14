@@ -1,7 +1,6 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-import Card from "./CardSet/Card";
 import styles from "./index.module.css";
 import burgersJSON from "@/public/json/burgers.json";
 import frenchFriesJSON from "@/public/json/french_fries.json";

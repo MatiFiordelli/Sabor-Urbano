@@ -9,10 +9,12 @@ export default function RightContainer() {
     const willChange = useWillChange()
     const { scrollY } = useScroll()
     const burgerPresentationImage = useRef<HTMLDivElement | null>(null);
-    const [isScreenLessThan768px, setIsScreenLessThan768px] = useState(window.matchMedia("(max-width: 768px)").matches);
+    const [isScreenLessThan768px, setIsScreenLessThan768px] = useState(false);
 
     useEffect(() => {
         const mediaQuery = window.matchMedia("(max-width: 768px)");
+        setIsScreenLessThan768px(mediaQuery.matches);
+
         const handleResize = () => setIsScreenLessThan768px(mediaQuery.matches);
         mediaQuery.addEventListener('change', handleResize);
 
@@ -26,7 +28,7 @@ export default function RightContainer() {
 
             return () => {
                 unsubscribe();
-                mediaQuery.removeEventListener('change',handleResize);
+                mediaQuery.removeEventListener('change', handleResize);
             };
         } else {
             return () => mediaQuery.removeEventListener('change', handleResize);
