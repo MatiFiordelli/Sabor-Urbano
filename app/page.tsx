@@ -7,7 +7,7 @@ import Image from "next/image";
 import CardsGroupBurgers from "@/components/CardsGroupBurgers";
 import Marquee from "@/components/Marquee";
 import { useEffect, useRef } from "react";
-import Waves from "@/components/Canvas/Waves";
+//import Waves from "@/components/Canvas/Waves";
 import TopPresentation from "@/components/TopPresentation";
 
 export default function Home() {
