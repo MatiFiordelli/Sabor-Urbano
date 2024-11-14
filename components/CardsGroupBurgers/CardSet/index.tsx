@@ -5,7 +5,7 @@ export default function CardSet({ array }:    any     ) {
 	return (
 		<div className={styles["card-set"]}>
 			{array.map((e: (typeof array)[0], i: number) => (
-				<Card data={e} key={i} />
+				<Card data={e} theKey={i} />
 			))}
 		</div>
 	);

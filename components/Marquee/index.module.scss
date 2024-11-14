@@ -1,23 +1,105 @@
-.marquee{
-	overflow: hidden;	
+.marquee-container{
+	
+	& .marquee{
+		color: #FFF;
+		user-select: none;
+		width: fit-content;
+		animation: slideMarquee 300000ms linear infinite alternate;
+
+		& .marquee-text{
+			line-height: 200px;
+			font-size: 3rem;
+			font-family: 'Monserrat-Medium', 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+			font-weight: bold;
+			text-shadow: rgb(255, 0, 187) 5px 5px 30px;
+			-webkit-text-stroke: 0.1px rgb(255, 166, 231);
+			white-space: nowrap;
+		}	
+	}
+}
+
+@keyframes slideMarquee {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-90%);
+	}
+}
+
+
+/* $speed: 200000ms;
+.marqueeContainer {
+	/* color: rgb(0, 0, 0);
+	text-shadow: 2px 2px 1px #ffffff;
+	font-family: CamelliaSignature;
+	font-size: 1.8rem;
+	overflow: hidden;
 	padding: 0;
 	margin: 0;
-	//position:relative;
-	//top:0;
-	//left:0;
-	border:3px solid;
+	background-color: transparent;
+	padding-top: 20px;
+	height: 100%; */
+/*
+	.box {
+		display: flex;
+		justify-content: center;
+	}
+
+	.box .inner {
+		width: 400px;
+		height: 200px;
+		line-height: 200px;
+		font-size: 4em;
+		font-family: sans-serif;
+		font-weight: bold;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	.box .inner:first-child {
+		background-color: rgb(77, 157, 197);
+		color: darkred;
+		transform-origin: right;
+		transform: rotateY(-5deg);
+	}
+
+	.box .inner:last-child {
+		background-color: #ffa500;
+		color: antiquewhite;
+		transform-origin: left;
+		transform: rotateY(5deg);
+	}
+
+	.box .inner span {
+		position: absolute;
+		animation: marquee 5s linear infinite; 
+	}
+
+	.box .inner:first-child span {
+		animation-delay: 2.5s;
+		left: -100%;
+	}
+
+	@keyframes marquee {
+		from {
+			left: 100%;
+		}
+
+		to {
+			left: -100%;
+		}
+	}
 
 	& .marqueeContainer {
 		position: relative;
 		background-color: transparent;
 		white-space: nowrap;
-		font-size: 4rem;
 		white-space: nowrap;
 		width: 100dvw;
 		height: auto;
 		z-index: 10;
-		top:-20px;
-		//left:-10px;
+		top: -20px;
 		transform: rotateZ(-5deg);
 
 		& .marqueeOuter {
@@ -29,66 +111,77 @@
 			z-index: 12;
 
 			& .marqueeInnerTextLeft {
-				position: absolute;
+				position: relative;
 				top: 35%;
-				background-color: gray;
-				color: red;
-				animation: slideMarquee 50000ms linear infinite;
-				//overflow: hidden;
-				width: 53%;
+				right: 50%;
+				background-color: rgb(77, 157, 197);
+				overflow: hidden;
+				width: calc(100% + 20px);
 				z-index: 14;
 				display: block;
 
+				& span {
+					display: inline-block;
+					position: relative;
+					animation: slideMarquee $speed linear infinite;
+				}
+
 				& .marqueeFold {
-					//display:none;
 					position: absolute;
 					bottom: -10%;
 					right: -25%;
-					width: 40%;
-					height: 170%;
+					width: 47px;
+					height: 170px;
 					display: block;
-					z-index: -21;
-					border:1px solid blue;
+					z-index: 21;
+					//border: 2px solid red;
 				}
 			}
 			& .marqueeInnerTextRight {
 				position: absolute;
 				top: 27.9%;
-				left: 45.1%;
-				width: 55%;
+				left: calc(50% - 70px);
+				width: 100%;
 				background-color: orange;
-				color: blue;
-				animation: slideMarquee2 50000ms linear infinite;
+				box-shadow: 8px 10px 10px #000;
 				z-index: 14;
 				display: block;
 				overflow: hidden;
+
+				& span {
+					display: inline-block;
+					position: relative;
+					animation: slideMarquee $speed linear infinite;
+				}
 			}
 
 			& .marqueeShadow {
-				display: none;
+				z-index: 1236;
 				position: absolute;
 				top: 0;
-				right: 0;
-				width: 29.5%;
+				left: 0;
+				width: inherit;
 				height: 100%;
+				border: 3px solid red;
 			}
 		}
-	} 
+	}
 }
 
-	/* @keyframes slideMarquee{
-		0%{
-			transform: translateX(0);
-		}
-		100%{
-			transform: translateX(-100%);
-		}
+@keyframes slideMarquee {
+	0% {
+		transform: translateX(0);
 	}
-	@keyframes slideMarquee2{
-		0%{
-			transform: translateX(0);
-		}
-		100%{
-			transform: translateX(-100%);
-		}
-	} */
+	100% {
+		transform: translateX(-100%);
+	}
+}
+@keyframes slideMarquee2 {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+ */

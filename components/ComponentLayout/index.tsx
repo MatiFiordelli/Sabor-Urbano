@@ -6,12 +6,18 @@ import styles from './index.module.css'
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function ComponentLayout({children}: PropsComponentLayout ) {
     const [isHover, setIsHover] = useState(false)
 
     return (
-        <div className={styles.componentLayout}>
+        <motion.div 
+            className={styles.componentLayout}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.2, type: "spring" }}
+        >
             <Header />
             {children}
             <Link 
@@ -26,17 +32,23 @@ export default function ComponentLayout({children}: PropsComponentLayout ) {
                 >
                     Hace tu pedido!
                 </span>
-				<Image
-					src="/svg/socialMedia/whatsapp.svg"
-					alt="Whatsapp"
-					width={50}
-					height={50}
-                    className={styles.haceTuPedidoImg}
-                    onMouseOver={()=>setIsHover(true)}
-                    onMouseOut={()=>setIsHover(false)}
-				/>
+				<motion.div
+                    initial={{ top: '-100vh', position:'relative' }}
+                    transition={{ duration: 1.2, type: "spring" }}
+                    animate={{ top: 0 }}
+                >
+                    <Image
+                        src="/svg/socialMedia/whatsapp.svg"
+                        alt="Whatsapp"
+                        width={50}
+                        height={50}
+                        className={styles.haceTuPedidoImg}
+                        onMouseOver={()=>setIsHover(true)}
+                        onMouseOut={()=>setIsHover(false)}
+                    />
+                </motion.div>
 			</Link>
             <Footer />
-        </div>
+        </motion.div>
     )
 }

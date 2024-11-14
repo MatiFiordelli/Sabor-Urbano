@@ -1,5 +1,6 @@
 .card-container {
   padding: 100px 0 0;
+  position: relative;
   color: red;
 }
 .card-container .card {
@@ -35,7 +36,6 @@
   transition: 1000ms;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .card-container .card .car__image-container .car__image-container--image:hover {
@@ -84,6 +84,5 @@
   transform: translate(20%, 20%) rotatez(-25deg);
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }/*# sourceMappingURL=index.module.css.map */

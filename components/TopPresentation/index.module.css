@@ -1,0 +1,29 @@
+.top-presentation-outer-container {
+  display: block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  background-image: radial-gradient(circle at bottom left, #131313 10%, transparent 50%, transparent 10%);
+}
+@media only screen and (min-width: 768px) {
+  .top-presentation-outer-container {
+    position: relative;
+    height: 400px;
+    display: grid;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .top-presentation-outer-container {
+    height: 600px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .top-presentation-outer-container {
+    height: 900px;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  .top-presentation-outer-container {
+    height: 60vh;
+  }
+}/*# sourceMappingURL=index.module.css.map */

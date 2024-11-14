@@ -1,0 +1,40 @@
+.top-presentation-left-inner-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: auto;
+    height: fit-content;
+    text-align: center;
+    padding: 1rem 2rem;
+
+    & .top-presentation-left-inner-container__title {
+        margin: 0;
+
+        & span{
+            display: inline-block;
+            font-family: "LuckiestGuy-Regular";
+            font-size: 2.7rem;
+            text-shadow: 2px 2px 2px #000;
+            letter-spacing: 0.5rem;
+        }
+    }
+
+    & .top-presentation-left-inner-container__subtitle {
+        font-family: "Monserrat-Regular";
+        font-size: 1rem;
+        line-height: 1.8rem;
+        margin: 0;
+        opacity: 0.6;
+        text-shadow: 2px 2px 1px #000;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .top-presentation-left-inner-container{
+        align-self: center;
+        position: absolute;
+        text-align: start;
+        width: 60%;
+    }
+}

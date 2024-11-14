@@ -5,6 +5,7 @@
   gap: 3%;
   row-gap: 3rem;
   width: var(--inner-content-width);
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding: 0 5px;
+  position: relative;
 }/*# sourceMappingURL=index.module.css.map */

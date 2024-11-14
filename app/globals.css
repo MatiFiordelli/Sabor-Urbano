@@ -1,59 +1,59 @@
-@font-face{
-	font-family: 'Monserrat-Regular';
-	src: url('/fonts/monserrat/Montserrat-Regular.ttf');
+@font-face {
+  font-family: "Monserrat-Regular";
+  src: url("/fonts/monserrat/Montserrat-Regular.ttf");
 }
-@font-face{
-	font-family: 'Monserrat-Medium';
-	src: url('/fonts/monserrat/Montserrat-Medium.ttf');
+@font-face {
+  font-family: "Monserrat-Medium";
+  src: url("/fonts/monserrat/Montserrat-Medium.ttf");
 }
-@font-face{
-	font-family: 'CamelliaSignature';
-	src: url('/fonts/camellia_signature/CamelliaSignature.ttf')
+@font-face {
+  font-family: "CamelliaSignature";
+  src: url("/fonts/camellia_signature/CamelliaSignature.ttf");
 }
-@font-face{
-	font-family: 'LilitaOne-Regular';
-	src: url('/fonts/lilita_one/LilitaOne-Regular.ttf');
+@font-face {
+  font-family: "LilitaOne-Regular";
+  src: url("/fonts/lilita_one/LilitaOne-Regular.ttf");
 }
-@font-face{
-	font-family: 'LuckiestGuy-Regular';
-	src: url('/fonts/luckiest_guy/LuckiestGuy-Regular.ttf');
+@font-face {
+  font-family: "LuckiestGuy-Regular";
+  src: url("/fonts/luckiest_guy/LuckiestGuy-Regular.ttf");
 }
-
-:root{
-	--inner-content-width: 90vw;
+:root {
+  --inner-content-width: 90vw;
+  --breakpoint-mobile: 768px;
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-	background-color: #000;
-	color: #fff;
-	display: grid;
-	justify-content: center;
-	padding: 0;
-	margin: 0 auto;
-	font-family: 'Monserrat-Medium', Arial, Helvetica, sans-serif;
-	/* font-size: 16px; */
-	/* font-size: clamp(16px, 1vw, 34.6px); */
-	font-size: clamp(15px, 1vw, 60px) !important;
-	font-weight: normal;
-	font-synthesis: style small-caps weight position;
-	/* scroll-behavior: smooth; */
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-tap-highlight-color: transparent;
-	outline: none;
-	overflow-x: hidden;
-	word-break: break-word;
+  background-color: #000;
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Monserrat-Medium", Arial, Helvetica, sans-serif;
+  /* font-size: 16px; */
+  /* font-size: clamp(16px, 1vw, 34.6px); */
+  font-size: clamp(15px, 1.5vw, 160px);
+  font-weight: normal;
+  font-synthesis: style small-caps weight position;
+  /* scroll-behavior: smooth; */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  overflow-x: hidden;
+  word-break: break-word;
 }
 
 a,
 a:link,
 a:visited {
-	color: inherit;
-	text-decoration: none;
-}
+  color: inherit;
+  text-decoration: none;
+}/*# sourceMappingURL=globals.css.map */

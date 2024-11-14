@@ -1,26 +1,61 @@
-import styles from './index.module.css'
-import SVGShadow from './assets/ticker-shadow.svg'
-import SVGFold from './assets/ticker-notch.svg'
-import Image from 'next/image'
+import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import styles from "./index.module.scss";
 
-export default function Marquee() {
-
-    return (
-        <div className={styles.marquee}>
-            <div className={styles.marqueeContainer}>
-                <div className={styles.marqueeOuter}>
-                    <div className={styles.marqueeInnerTextLeft}>
-                        <span>Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli </span>
-                        <img className={styles.marqueeFold} src="./assets/ticker-notch.svg" alt="marquee-shadow" />
-                        
-                    </div>
-                    <div className={styles.marqueeInnerTextRight}>
-                        <span>delli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli Matias Javier Fiordelli </span>
-                    </div>
-                    <img className={styles.marqueeShadow} src= {`${SVGShadow}`} alt="marquee-shadow" />
-                </div>
-            </div>
-        </div>
-    )
+interface MarqueeProps {
+	text: string;
 }
 
+const Marquee: React.FC<MarqueeProps> = ({ text }) => {
+
+	return (
+		<motion.div
+			className={styles["marquee-container"]}
+			transition={{
+				type: "linear",
+				duration: 0.1,
+			}}
+			drag="x"
+			dragMomentum={false}
+
+			whileHover={{ scale: 1 }}
+			whileTap={{ scale: 1 }}
+			
+		>
+			<div className={styles["marquee"]}>
+				{Array.from(Array(10)).map((_,i) => (
+					<span key={i} className={styles["marquee-text"]}>
+						{text}{" "}
+					</span>
+				))}
+			</div>
+		</motion.div>
+	);
+};
+
+export default Marquee;
+
+//import styles from "./index.module.css";
+
+/* export default function Marquee() {
+	return (
+		<div className={styles.marqueeContainer}>
+			<div className={styles.box}>
+  				<div className={styles.inner}>
+    				<span>
+						Sabor Urbano - Av. Angela de la Casa 1840 - Whatsapp: 3492 331704 
+						Sabor Urbano - Av. Angela de la Casa 1840 - Whatsapp: 3492 331704
+						
+					</span>
+  				</div>
+  				<div className={styles.inner}>
+    				<span>
+						Sabor Urbano - Av. Angela de la Casa 1840 - Whatsapp: 3492 331704 
+						Sabor Urbano - Av. Angela de la Casa 1840 - Whatsapp: 3492 331704
+						
+					</span>
+  				</div>
+			</div>
+		</div>
+	);
+} */

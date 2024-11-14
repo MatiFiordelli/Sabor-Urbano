@@ -25,7 +25,6 @@
   pointer-events: auto;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .componentLayout .haceTuPedido .haceTuPedidoImg:hover {
