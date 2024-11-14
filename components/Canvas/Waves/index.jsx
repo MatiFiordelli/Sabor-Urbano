@@ -1,3 +1,4 @@
+"use client"
 import React, { useRef, useEffect } from "react";
 
 export default function Waves({ waveTotal=10, waveHeight=100, waveSpeed=0.8, defaultColor="", flattenDuration=3, ...props}) {
